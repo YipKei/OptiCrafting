@@ -1,0 +1,24 @@
+{
+        "type": "crafting_shaped",
+        "pattern": [
+                "#*#",
+                "*o*",
+                "#*#"
+        ],
+        "key": {
+                "*": {
+                        "item": "minecraft:prismarine_shard"
+                },
+				"#": {
+                        "item": "minecraft:yellow_wool"
+                },
+				"o": {
+                        "item": "minecraft:prismarine_crystals"
+                }
+				
+        },
+        "result": {
+                "item": "minecraft:sponge",
+                "count":16
+        }
+}

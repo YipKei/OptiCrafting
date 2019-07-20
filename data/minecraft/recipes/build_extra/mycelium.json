@@ -1,0 +1,23 @@
+{
+        "type": "crafting_shaped",
+        "pattern": [
+                "x#x",
+                "#*#",
+                "x#x"
+        ],
+        "key": {
+                "*": {
+                        "item": "minecraft:podzol"
+                },
+                "#": {
+                        "item": "minecraft:brown_mushroom_block"
+                },
+				"x": {
+                        "item": "minecraft:red_mushroom_block"
+                }
+        },
+        "result": {
+                "item": "minecraft:mycelium",
+                "count":1
+        }
+}

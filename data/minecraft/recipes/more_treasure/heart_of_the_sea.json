@@ -1,0 +1,29 @@
+{
+        "type": "crafting_shaped",
+        "pattern": [
+                "###",
+                "v*v",
+                "oxo"
+        ],
+        "key": {
+                "*": {
+                        "item": "minecraft:tube_coral"
+                },
+				"x": {
+                        "item": "minecraft:nautilus_shell"
+                },
+				"o": {
+                        "item": "minecraft:sea_lantern"
+                },
+				"v": {
+                        "item": "minecraft:diamond"
+                },
+                "#": {
+                        "item": "minecraft:blue_ice"
+                }
+        },
+        "result": {
+                "item": "minecraft:heart_of_the_sea",
+                "count":1
+        }
+}

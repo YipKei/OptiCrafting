@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ooo",
+	"#*#",
+    "ooo"
+  ],
+  "key": {
+            "#": {
+                    "item": "minecraft:wither_skeleton_skull"
+            },
+			"*": {
+                    "item": "minecraft:egg"
+            },
+			"o":{
+					"item": "minecraft:coal_block"
+			}
+  },
+  "result": {
+    "item": "minecraft:dragon_egg"
+  }
+}
