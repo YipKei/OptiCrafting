@@ -9,8 +9,9 @@
     "#": {
       "tag": "minecraft:logs"
     }
+  },
   "result": {
     "item": "minecraft:chest",
-	"count":4
+    "count":4
   }
 }
