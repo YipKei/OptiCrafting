@@ -5,11 +5,11 @@
   ],
   "key": {
             "#": {
-                    "tag": "minecraft:acaica_logs"
+                    "tag": "minecraft:acacia_logs"
             }
   },
   "result": {
     "item": "minecraft:acaica_trapdoor",
-	"count":4
+    "count":4
   }
 }
