@@ -21,7 +21,7 @@ jobs:
       run: node release
 
     - name: Pack
-      run: apk add zip && zip -r release.zip release/*
+      run: zip -r release.zip release/*
 
     - name: Upload binaries to release
       uses: svenstaro/upload-release-action@v2
