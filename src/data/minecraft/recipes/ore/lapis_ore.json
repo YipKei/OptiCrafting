@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "o#o",
+    "#*#",
+    "o#o"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lapis_block"
+    },
+    "*": {
+      "item": "minecraft:stone"
+    },
+    "o": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "item": "minecraft:lapis_ore",
+    "count": 1
+  }
+}

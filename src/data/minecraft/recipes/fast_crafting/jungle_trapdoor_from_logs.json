@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:jungle_logs"
+    }
+  },
+  "result": {
+    "item": "minecraft:jungle_trapdoor",
+    "count": 4
+  }
+}

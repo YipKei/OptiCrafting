@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#*#",
+    "xox"
+  ],
+  "key": {
+    "*": {
+      "item": "minecraft:chorus_flower"
+    },
+    "#": {
+      "item": "minecraft:ender_eye"
+    },
+    "o": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "x": {
+      "item": "minecraft:dragon_egg"
+    }
+  },
+  "result": {
+    "item": "minecraft:dragon_head",
+    "count": 1
+  }
+}

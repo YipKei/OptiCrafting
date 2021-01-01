@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#o#",
+    "#*#",
+    "#o#"
+  ],
+  "key": {
+    "*": {
+      "item": "minecraft:saddle"
+    },
+    "o": {
+      "item": "minecraft:shulker_shell"
+    },
+    "#": {
+      "item": "minecraft:phantom_membrane"
+    }
+  },
+  "result": {
+    "item": "minecraft:elytra",
+    "count": 1
+  }
+}
