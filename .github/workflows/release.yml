@@ -27,6 +27,6 @@ jobs:
       uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: release.zip
+        file: release/release.zip
         asset_name: OptiCrafting.zip
         tag: ${{ github.ref }}
