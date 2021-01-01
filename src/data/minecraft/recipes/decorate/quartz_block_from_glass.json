@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#*#",
+    "###"
+  ],
+  "key": {
+    "*": {
+      "item": "minecraft:quartz"
+    },
+    "#": {
+      "item": "minecraft:white_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "minecraft:quartz_block",
+    "count": 4
+  }
+}
