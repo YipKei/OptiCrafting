@@ -1,0 +1,32 @@
+name: Release
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out git repository
+      uses: actions/checkout@v1
+
+    - name: Install Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 14
+
+    - name: Build
+      run: node release
+
+    - name: Pack
+      run: cd release && zip -r release.zip .
+
+    - name: Upload binaries to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: release/release.zip
+        asset_name: OptiCrafting.zip
+        tag: ${{ github.ref }}
